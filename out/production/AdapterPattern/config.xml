@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+    <classname>DBAdapter</classname>
+    <classname>FileAdapter</classname>
+    <classname>NetworkAdapter</classname>
+</config>
