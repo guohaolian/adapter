@@ -1,11 +1,7 @@
-public class DBAdapter implements DataSourceAdapter {
-    private DatabaseService dbService;
-    public DBAdapter() {
-        this.dbService = new DatabaseService();
-    }
+public class DBAdapter extends DatabaseService implements DataSourceAdapter {
 
     @Override
     public void fetchData() {
-        dbService.getDataFromDatabase();
+        super.getDataFromDatabase();
     }
 }
